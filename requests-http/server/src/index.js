@@ -30,6 +30,6 @@ app.get('/downloadPDF', (req, res) => {
 
 app.use((err, req, res, next) => res.json({error: err.message}));
 
-app.listen(8000, () => {
-  console.log('Servidor porta 8000');
+app.listen(3000, () => {
+  console.log('Servidor porta 3000');
 })
